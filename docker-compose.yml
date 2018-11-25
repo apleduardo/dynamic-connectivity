@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  react:
+    image: simple-nodejs
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
+    command: npm start
+    ports:
+      - 8080:8080
