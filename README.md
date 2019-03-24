@@ -1,4 +1,8 @@
 
+### Dependencies
+  - docker
+  - docker-compose
+ 
 ### Installation
 
 ```sh
